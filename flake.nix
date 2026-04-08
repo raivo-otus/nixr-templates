@@ -10,7 +10,7 @@
       default = self.templates.r-minimal;
 
       r-miaverse = {
-        path = ./r-minimal;
+        path = ./r-miaverse;
         desctription = "Miaverse + rix environment";
       };
     };
