@@ -3,16 +3,17 @@
 
   outputs = { self, ... }: {
     templates = {
-      r-minimal = {
+      minimal = {
         path = ./r-minimal;
         description = "Minimal R + rix environment";
       };
-      default = self.templates.r-minimal;
 
-      r-miaverse = {
+      miaverse = {
         path = ./r-miaverse;
         desctription = "Miaverse + rix environment";
       };
+
+      default = self.templates.minimal;
     };
   };
 }
