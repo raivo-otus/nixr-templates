@@ -8,6 +8,11 @@
         description = "Minimal R + rix environment";
       };
       default = self.templates.r-minimal;
+
+      r-miaverse = {
+        path = ./r-minimal;
+        desctription = "Miaverse + rix environment";
+      };
     };
   };
 }
